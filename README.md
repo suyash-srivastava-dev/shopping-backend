@@ -6,7 +6,10 @@ ER Diagram:
 
 Demo: https://www.youtube.com/watch?v=JFt0r2nuMpY
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/68404906/177040922-1b0f50ee-b673-459a-9a5c-c4d61a563576.gif)
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/68404906/177041242-09a02a96-31ed-48c0-976e-b94353c7b054.gif)
+
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/68404906/177041261-16e16d6c-7e6e-493c-a51e-7f2d289120dd.gif)
 
 
 Frontend App: https://github.com/suyash-srivastava-dev/https---github.com-suyash-srivastava-dev-shopping-angular
