@@ -1,0 +1,422 @@
+{
+	"info": {
+		"_postman_id": "8eb1d357-a419-4476-ade2-27d9a2ffc1da",
+		"name": "Shopping",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add user Role",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\":\"customer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/role/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"role",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignUp Customer",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"customer2\",\n    \"password\": \"CustomerPassword1\",\n    \"email\": \"customer2@gmail.com\",\n    \"role\": \"customer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/user/signup",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"user",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login User",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "customer2",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "CustomerPassword1",
+							"type": "text"
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create item",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"storeName\": \"Kanti Sweets\",\n    \"area\": \"Adugodi\",\n    \"pincode\": \"560 030\",\n    \"latitude\": \"12.9716\",\n    \"longitude\": \"77.5946\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/outlet/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"outlet",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "create list of item",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"data\": [\n        {\n            \"name\": \"Onion\",\n            \"mrp\": \"2500\",\n            \"discountPercent\": \"16\",\n            \"availableQuantity\": \"3\",\n            \"discountedSellingPrice\": \"2100\",\n            \"weightInGms\": \"1000\",\n            \"outOfStock\": \"FALSE\",\n            \"quantity\": \"1\"\n        },\n        {\n            \"name\": \"Tomato Hybrid\",\n            \"mrp\": \"4200\",\n            \"discountPercent\": \"16\",\n            \"availableQuantity\": \"3\",\n            \"discountedSellingPrice\": \"3500\",\n            \"weightInGms\": \"1000\",\n            \"outOfStock\": \"FALSE\",\n            \"quantity\": \"1\"\n        }\n    ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/item/create/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"item",
+						"create",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Outlet items",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"outletName\":\"Taco Bell\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/location/outlet/item-list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"location",
+						"outlet",
+						"item-list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Distance of nearest outlet",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"currentLocation\":{\n        \"latitude\":12.95,\n        \"longitude\":77.50\n    }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/location/distance",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"location",
+						"distance"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create shops from List",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"bangloreOutletDetails\": [\n    {\n      \"storeName\": \"Kanti Sweets\",\n      \"area\": \"Adugodi\",\n      \"pincode\": \"560 030\",\n      \"latitude\": \"12.9716\",\n      \"longitude\": \"77.5946\"\n    },\n    {\n      \"storeName\": \"Mumbai Tiffin\",\n      \"area\": \"Agaram\",\n      \"pincode\": \"560 007\",\n      \"latitude\": \"12.8431\",\n      \"longitude\": \"77.4863\"\n    },\n    {\n      \"storeName\": \"Sri Krishna sagar\",\n      \"area\": \"Air Force Stn. Yelahanka\",\n      \"pincode\": \"560 063\",\n      \"latitude\": \"13.1048\",\n      \"longitude\": \"77.5763\"\n    },\n    {\n      \"storeName\": \"Al Daaz\",\n      \"area\": \"Banashankari\",\n      \"pincode\": \"560 050\",\n      \"latitude\": \"12.925453\",\n      \"longitude\": \"77.546761\"\n    },\n    {\n      \"storeName\": \"Beijing Bites\",\n      \"area\": \"Banashankari 2nd Stage\",\n      \"pincode\": \"560 070\",\n      \"latitude\": \"12.9249\",\n      \"longitude\": \"77.5662\"\n    },\n    {\n      \"storeName\": \"Kitchens of Punjab\",\n      \"area\": \"Banashankari 3rd Stage\",\n      \"pincode\": \"560 085\",\n      \"latitude\": \"12.9271\",\n      \"longitude\": \"77.5548\"\n    },\n    {\n      \"storeName\": \"99 VARIETY DOSA AND PAV BHAJI- Malli Mane Food Court\",\n      \"area\": \"Bangalore City H.O.\",\n      \"pincode\": \"560 002\",\n      \"latitude\": \"12.972442\",\n      \"longitude\": \"77.580643\"\n    },\n    {\n      \"storeName\": \"La Pino'z Pizza\",\n      \"area\": \"Bangalore G.P.O.\",\n      \"pincode\": \"560 001\",\n      \"latitude\": \"12.972442\",\n      \"longitude\": \"77.580643\"\n    },\n    {\n      \"storeName\": \"Hotel Manu\",\n      \"area\": \"Bangalore University\",\n      \"pincode\": \"560 056\",\n      \"latitude\": \"12.9462\",\n      \"longitude\": \"77.5103\"\n    },\n    {\n      \"storeName\": \"Yumlane Pizza\",\n      \"area\": \"Bannerghatta\",\n      \"pincode\": \"560 083\",\n      \"latitude\": \"12.9426\",\n      \"longitude\": \"77.6027\"\n    },\n    {\n      \"storeName\": \"Ambur Star Briyani\",\n      \"area\": \"Bannerghatta Road\",\n      \"pincode\": \"560 076\",\n      \"latitude\": \"12.9426\",\n      \"longitude\": \"77.6027\"\n    },\n    {\n      \"storeName\": \"Cake Box\",\n      \"area\": \"Bansawadi\",\n      \"pincode\": \"560 043\",\n      \"latitude\": \"13.0108\",\n      \"longitude\": \"77.6493\"\n    },\n    {\n      \"storeName\": \"Meghana Foods\",\n      \"area\": \"Basavangudi\",\n      \"pincode\": \"560 004\",\n      \"latitude\": \"12.9422\",\n      \"longitude\": \"77.5748\"\n    },\n    {\n      \"storeName\": \"Momoz\",\n      \"area\": \"Basaveswaranagar\",\n      \"pincode\": \"560 079\",\n      \"latitude\": \"12.9957\",\n      \"longitude\": \"77.5419\"\n    },\n    {\n      \"storeName\": \"A2B - Adyar Ananda Bhavan\",\n      \"area\": \"Benson Town\",\n      \"pincode\": \"560 046\",\n      \"latitude\": \"12.9966\",\n      \"longitude\": \"77.6042\"\n    },\n    {\n      \"storeName\": \"Shawarma Inc\",\n      \"area\": \"Byatarayanapura\",\n      \"pincode\": \"560 092\",\n      \"latitude\": \"13.0588\",\n      \"longitude\": \"77.59385\"\n    },\n    {\n      \"storeName\": \"WarmOven Cake & Desserts\",\n      \"area\": \"Carmelram\",\n      \"pincode\": \"560 035\",\n      \"latitude\": \"12.9062\",\n      \"longitude\": \"77.7066\"\n    },\n    {\n      \"storeName\": \"Sri Lakshmi Dhaba\",\n      \"area\": \"Chamrajpet West\",\n      \"pincode\": \"560 018\",\n      \"latitude\": \"12.9586\",\n      \"longitude\": \"77.5634\"\n    },\n    {\n      \"storeName\": \"Falahaar & Kota Kachori\",\n      \"area\": \"Chickpet\",\n      \"pincode\": \"560 053\",\n      \"latitude\": \"12.9708\",\n      \"longitude\": \"77.5806\"\n    },\n    {\n      \"storeName\": \"Shree Khana Khazana\",\n      \"area\": \"Chikkabanavara\",\n      \"pincode\": \"560 090\",\n      \"latitude\": \"13.0823\",\n      \"longitude\": \"77.5068\"\n    },\n    {\n      \"storeName\": \"Just Bake - Cakes & confectioners\",\n      \"area\": \"C V Raman Nagar\",\n      \"pincode\": \"560 093\",\n      \"latitude\": \"12.9846\",\n      \"longitude\": \"77.6622\"\n    },\n    {\n      \"storeName\": \"Maa Di Hatti\",\n      \"area\": \"Dasarahalli\",\n      \"pincode\": \"560 057\",\n      \"latitude\": \"13.0458\",\n      \"longitude\": \"77.5111\"\n    },\n    {\n      \"storeName\": \"Hotel Godavari\",\n      \"area\": \"Dharmaram College\",\n      \"pincode\": \"560 029\",\n      \"latitude\": \"12.9376\",\n      \"longitude\": \"77.5991\"\n    },\n    {\n      \"storeName\": \"Rolls On Wheels\",\n      \"area\": \"Doddakallasandra\",\n      \"pincode\": \"560 062\",\n      \"latitude\": \"12.8807\",\n      \"longitude\": \"77.5576\"\n    },\n    {\n      \"storeName\": \"New Udupi Grand\",\n      \"area\": \"Domlur\",\n      \"pincode\": \"560 071\",\n      \"latitude\": \"12.961\",\n      \"longitude\": \"77.6387\"\n    },\n    {\n      \"storeName\": \"Swad Punjab da\",\n      \"area\": \"Dooravaninagar\",\n      \"pincode\": \"560 016\",\n      \"latitude\": \"13.0077\",\n      \"longitude\": \"77.6737\"\n    },\n    {\n      \"storeName\": \"Rice Bowl\",\n      \"area\": \"Fraser Town\",\n      \"pincode\": \"560 005\",\n      \"latitude\": \"13.0007\",\n      \"longitude\": \"77.6165\"\n    },\n    {\n      \"storeName\": \"High N Hungry\",\n      \"area\": \"Gandhinagar\",\n      \"pincode\": \"560 009\",\n      \"latitude\": \"12.9791\",\n      \"longitude\": \"77.5777\"\n    },\n    {\n      \"storeName\": \"Burger King\",\n      \"area\": \"Gavipuram Ext.\",\n      \"pincode\": \"560 019\",\n      \"latitude\": \"12.9463\",\n      \"longitude\": \"77.5669\"\n    },\n    {\n      \"storeName\": \"Nandhana Palace\",\n      \"area\": \"G.K.V.K.\",\n      \"pincode\": \"560 065\",\n      \"latitude\": \"13.0821\",\n      \"longitude\": \"77.5762\"\n    },\n    {\n      \"storeName\": \"Easy Bites\",\n      \"area\": \"Gokula Extension\",\n      \"pincode\": \"560 054\",\n      \"latitude\": \"12.9716\",\n      \"longitude\": \"77.5946\"\n    },\n    {\n      \"storeName\": \"Bengali Fun Foods\",\n      \"area\": \"Hebbal Agri. Farm\",\n      \"pincode\": \"560 024\",\n      \"latitude\": \"13.0324\",\n      \"longitude\": \"77.5992\"\n    },\n    {\n      \"storeName\": \"Madurai Idly Shop\",\n      \"area\": \"Hesaraghatta\",\n      \"pincode\": \"560 088\",\n      \"latitude\": \"13.1585\",\n      \"longitude\": \"77.4888\"\n    },\n    {\n      \"storeName\": \"Oottupura\",\n      \"area\": \"Hesaraghatta Lake\",\n      \"pincode\": \"560 089\",\n      \"latitude\": \"13.1585\",\n      \"longitude\": \"77.4888\"\n    },\n    {\n      \"storeName\": \"Taco Bell\",\n      \"area\": \"H K P Road\",\n      \"pincode\": \"560 051\",\n      \"latitude\": \"12.98551\",\n      \"longitude\": \"77.60678\"\n    },\n    {\n      \"storeName\": \"Hyderabadi Biryani Hub\",\n      \"area\": \"HMT\",\n      \"pincode\": \"560 031\",\n      \"latitude\": \"13.0311\",\n      \"longitude\": \"77.5569\"\n    },\n    {\n      \"storeName\": \"Biriyani Zone\",\n      \"area\": \"Hospital Town East\",\n      \"pincode\": \"560 014\",\n      \"latitude\": \"12.9956\",\n      \"longitude\": \"77.6113\"\n    },\n    {\n      \"storeName\": \"Gongura's\",\n      \"area\": \"Hospital Town West\",\n      \"pincode\": \"560 015\",\n      \"latitude\": \"12.9716\",\n      \"longitude\": \"77.5946\"\n    },\n    {\n      \"storeName\": \"Bathinda Junction\",\n      \"area\": \"Indiranagar\",\n      \"pincode\": \"560 038\",\n      \"latitude\": \"12.9719\",\n      \"longitude\": \"77.6412\"\n    },\n    {\n      \"storeName\": \"Leon Grill\",\n      \"area\": \"J C Nagar\",\n      \"pincode\": \"560 006\",\n      \"latitude\": \"12.9876\",\n      \"longitude\": \"77.6379\"\n    },\n    {\n      \"storeName\": \"Venu's Donne Biryani\",\n      \"area\": \"Jalahalli\",\n      \"pincode\": \"560 013\",\n      \"latitude\": \"13.0519\",\n      \"longitude\": \"77.5416\"\n    },\n    {\n      \"storeName\": \"Cakewala\",\n      \"area\": \"Jayanagar 3rd Block\",\n      \"pincode\": \"560 011\",\n      \"latitude\": \"12.9329\",\n      \"longitude\": \"77.5839\"\n    },\n    {\n      \"storeName\": \"Swadista Aahar\",\n      \"area\": \"Jayanagar East\",\n      \"pincode\": \"560 069\",\n      \"latitude\": \"12.9301\",\n      \"longitude\": \"77.5877\"\n    },\n    {\n      \"storeName\": \"Cream Stone\",\n      \"area\": \"Jayanagar South\",\n      \"pincode\": \"560 041\",\n      \"latitude\": \"12.9301\",\n      \"longitude\": \"77.5877\"\n    },\n    {\n      \"storeName\": \"Svadu Pure Ghee Sweets\",\n      \"area\": \"J P Nagar\",\n      \"pincode\": \"560 078\",\n      \"latitude\": \"12.9105\",\n      \"longitude\": \"77.5857\"\n    },\n    {\n      \"storeName\": \"Sai Abhiruchi\",\n      \"area\": \"Kadugodi\",\n      \"pincode\": \"560 067\",\n      \"latitude\": \"12.9986\",\n      \"longitude\": \"77.7631\"\n    },\n    {\n      \"storeName\": \"Pizza Hut\",\n      \"area\": \"Kengeri\",\n      \"pincode\": \"560 060\",\n      \"latitude\": \"12.9\",\n      \"longitude\": \"77.4833\"\n    },\n    {\n      \"storeName\": \"Hyderabad Biryaani House\",\n      \"area\": \"Kothanur\",\n      \"pincode\": \"560 077\",\n      \"latitude\": \"13.0585\",\n      \"longitude\": \"77.6407\"\n    },\n    {\n      \"storeName\": \"China Pearl\",\n      \"area\": \"Krishnarajapuram\",\n      \"pincode\": \"560 036\",\n      \"latitude\": \"13.0006\",\n      \"longitude\": \"77.6746\"\n    },\n    {\n      \"storeName\": \"Balaji's Veg\",\n      \"area\": \"Kumbalgodu\",\n      \"pincode\": \"560 074\",\n      \"latitude\": \"12.9716\",\n      \"longitude\": \"77.5946\"\n    },\n    {\n      \"storeName\": \"Onesta\",\n      \"area\": \"Koramangala\",\n      \"pincode\": \"560 034\",\n      \"latitude\": \"12.9317\",\n      \"longitude\": \"77.6227\"\n    },\n    {\n      \"storeName\": \"Donne Biryani Mandi\",\n      \"area\": \"Koramangala 6th Block\",\n      \"pincode\": \"560 095\",\n      \"latitude\": \"12.9382\",\n      \"longitude\": \"77.6228\"\n    },\n    {\n      \"storeName\": \"FreshMenu\",\n      \"area\": \"Madivala\",\n      \"pincode\": \"560 068\",\n      \"latitude\": \"12.9211\",\n      \"longitude\": \"77.6134\"\n    },\n    {\n      \"storeName\": \"Donne Biryani House\",\n      \"area\": \"Magadi Road\",\n      \"pincode\": \"560 023\",\n      \"latitude\": \"12.9709\",\n      \"longitude\": \"77.5658\"\n    },\n    {\n      \"storeName\": \"Pipabu\",\n      \"area\": \"Mahadevapura\",\n      \"pincode\": \"560 048\",\n      \"latitude\": \"12.9904\",\n      \"longitude\": \"77.6842\"\n    },\n    {\n      \"storeName\": \"Sharmas punjabi restaurant\",\n      \"area\": \"Mahalakshmi Layout\",\n      \"pincode\": \"560 086\",\n      \"latitude\": \"13.0114\",\n      \"longitude\": \"77.5467\"\n    },\n    {\n      \"storeName\": \"KFC\",\n      \"area\": \"Malleswaram\",\n      \"pincode\": \"560 003\",\n      \"latitude\": \"13.0081\",\n      \"longitude\": \"77.5648\"\n    },\n    {\n      \"storeName\": \"Donne Biriyani House\",\n      \"area\": \"Malleswaram West\",\n      \"pincode\": \"560 055\",\n      \"latitude\": \"12.9996\",\n      \"longitude\": \"77.5689\"\n    },\n    {\n      \"storeName\": \"Nanda's\",\n      \"area\": \"Marathahally Colony\",\n      \"pincode\": \"560 037\",\n      \"latitude\": \"12.9512\",\n      \"longitude\": \"77.6998\"\n    },\n    {\n      \"storeName\": \"Sagar fast food\",\n      \"area\": \"Maruthisevanagar\",\n      \"pincode\": \"560 033\",\n      \"latitude\": \"13.0002\",\n      \"longitude\": \"77.6336\"\n    },\n    {\n      \"storeName\": \"calicut cafe restaurant\",\n      \"area\": \"Mathikere\",\n      \"pincode\": \"560 054\",\n      \"latitude\": \"13.032\",\n      \"longitude\": \"77.5605\"\n    },\n    {\n      \"storeName\": \"Cake Garden\",\n      \"area\": \"Nagarbhavi\",\n      \"pincode\": \"560 072\",\n      \"latitude\": \"12.9717\",\n      \"longitude\": \"77.5132\"\n    },\n    {\n      \"storeName\": \"Biryanis and more\",\n      \"area\": \"Nagasandra\",\n      \"pincode\": \"560 073\",\n      \"latitude\": \"13.02889\",\n      \"longitude\": \"77.44233\"\n    },\n    {\n      \"storeName\": \"Biryani Khazana\",\n      \"area\": \"Nagashettyhalli\",\n      \"pincode\": \"560 094\",\n      \"latitude\": \"12.9642\",\n      \"longitude\": \"77.6207\"\n    },\n    {\n      \"storeName\": \"800 Momos\",\n      \"area\": \"Nandhini Layout\",\n      \"pincode\": \"560 096\",\n      \"latitude\": \"13.0124\",\n      \"longitude\": \"77.5361\"\n    },\n    {\n      \"storeName\": \"World of asia\",\n      \"area\": \"Nayandahalli\",\n      \"pincode\": \"560 039\",\n      \"latitude\": \"12.9396\",\n      \"longitude\": \"77.5204\"\n    },\n    {\n      \"storeName\": \"Ghar Ka Khana\",\n      \"area\": \"New Tippasandra\",\n      \"pincode\": \"560 075\",\n      \"latitude\": \"12.9769\",\n      \"longitude\": \"77.6493\"\n    },\n    {\n      \"storeName\": \"Thalassery Restaurant\",\n      \"area\": \"Peenya S.I.\",\n      \"pincode\": \"560 058\",\n      \"latitude\": \"13.0085\",\n      \"longitude\": \"77.4996\"\n    },\n    {\n      \"storeName\": \"KANNUR FOOD POINT\",\n      \"area\": \"Rajajinagar\",\n      \"pincode\": \"560 010\",\n      \"latitude\": \"12.9906\",\n      \"longitude\": \"77.5533\"\n    },\n    {\n      \"storeName\": \"KANNOOR RESTAURANT\",\n      \"area\": \"Richmond Town\",\n      \"pincode\": \"560 025\",\n      \"latitude\": \"12.9634\",\n      \"longitude\": \"77.6035\"\n    },\n    {\n      \"storeName\": \"Fattoush\",\n      \"area\": \"RT Nagar\",\n      \"pincode\": \"560 032\",\n      \"latitude\": \"13.0223\",\n      \"longitude\": \"77.5949\"\n    },\n    {\n      \"storeName\": \"Nizams Biryani\",\n      \"area\": \"Seshadripuram\",\n      \"pincode\": \"560 020\",\n      \"latitude\": \"12.9864\",\n      \"longitude\": \"77.582\"\n    },\n    {\n      \"storeName\": \"Nagarjuna\",\n      \"area\": \"Shanthinagar\",\n      \"pincode\": \"560 027\",\n      \"latitude\": \"12.9611\",\n      \"longitude\": \"77.6047\"\n    },\n    {\n      \"storeName\": \"Punjabi Rasoi\",\n      \"area\": \"Srirampuram\",\n      \"pincode\": \"560 021\",\n      \"latitude\": \"12.987\",\n      \"longitude\": \"77.5662\"\n    },\n    {\n      \"storeName\": \"CRAVY WINGS - The American Diner\",\n      \"area\": \"St.Johns\",\n      \"pincode\": \"560 034\",\n      \"latitude\": \"12.991388\",\n      \"longitude\": \"77.61186\"\n    },\n    {\n      \"storeName\": \"Barista\",\n      \"area\": \"St.Thomas Town\",\n      \"pincode\": \"560 084\",\n      \"latitude\": \"13.0059\",\n      \"longitude\": \"77.6231\"\n    },\n    {\n      \"storeName\": \"BIRIYANI TASTE MASTH(BTM)\",\n      \"area\": \"Subramanyapura\",\n      \"pincode\": \"560 061\",\n      \"latitude\": \"12.9052\",\n      \"longitude\": \"77.5433\"\n    },\n    {\n      \"storeName\": \"Leon Grill\",\n      \"area\": \"Thyagarajanagar\",\n      \"pincode\": \"560 028\",\n      \"latitude\": \"12.9293\",\n      \"longitude\": \"77.568\"\n    },\n    {\n      \"storeName\": \"Khichdi Experiment\",\n      \"area\": \"Ulsoor H.O.\",\n      \"pincode\": \"560 008\",\n      \"latitude\": \"12.9815\",\n      \"longitude\": \"77.6192\"\n    },\n    {\n      \"storeName\": \"Tandoori Merchant\",\n      \"area\": \"Vasanthanagar\",\n      \"pincode\": \"560 052\",\n      \"latitude\": \"12.9911\",\n      \"longitude\": \"77.592\"\n    },\n    {\n      \"storeName\": \"Chinese Bae\",\n      \"area\": \"Vidyaranyapura\",\n      \"pincode\": \"560 097\",\n      \"latitude\": \"13.0754\",\n      \"longitude\": \"77.5591\"\n    },\n    {\n      \"storeName\": \"Kitchens of China\",\n      \"area\": \"Vijayanagar\",\n      \"pincode\": \"560 040\",\n      \"latitude\": \"12.9699\",\n      \"longitude\": \"77.5333\"\n    },\n    {\n      \"storeName\": \"Natural Ice Cream\",\n      \"area\": \"Vimanapura\",\n      \"pincode\": \"560 017\",\n      \"latitude\": \"12.9645\",\n      \"longitude\": \"77.6865\"\n    },\n    {\n      \"storeName\": \"Abhiruchi Hotel\",\n      \"area\": \"Virgonagar\",\n      \"pincode\": \"560 049\",\n      \"latitude\": \"13.0319\",\n      \"longitude\": \"77.7322\"\n    },\n    {\n      \"storeName\": \"Punjabi Swag\",\n      \"area\": \"Vyalikaval\",\n      \"pincode\": \"560 003\",\n      \"latitude\": \"13.0041\",\n      \"longitude\": \"77.5749\"\n    },\n    {\n      \"storeName\": \"Truffles\",\n      \"area\": \"Viveknagar\",\n      \"pincode\": \"560 047\",\n      \"latitude\": \"12.9496\",\n      \"longitude\": \"77.6223\"\n    },\n    {\n      \"storeName\": \"Gyaani Da Punjabi Dhaba\",\n      \"area\": \"Whitefield\",\n      \"pincode\": \"560 066\",\n      \"latitude\": \"12.9698\",\n      \"longitude\": \"77.7499\"\n    },\n    {\n      \"storeName\": \"Biriyani Bhatti\",\n      \"area\": \"Wilson Garden\",\n      \"pincode\": \"560 027\",\n      \"latitude\": \"12.949\",\n      \"longitude\": \"77.5978\"\n    },\n    {\n      \"storeName\": \"Khawa Karpo\",\n      \"area\": \"Yelhanka\",\n      \"pincode\": \"560 064\",\n      \"latitude\": \"13.1048\",\n      \"longitude\": \"77.5763\"\n    },\n    {\n      \"storeName\": \"99 VARIETY DOSA AND JUICE-Malli mane food court\",\n      \"area\": \"Yeswantpur\",\n      \"pincode\": \"560 022\",\n      \"latitude\": \"13.0178\",\n      \"longitude\": \"77.5572\"\n    }\n  ]\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/outlet/create/list",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"outlet",
+						"create",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create item",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ebf2e268-79af-40fb-8966-81969c9d0d5a",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "user",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Onion\",\n    \"mrp\": \"2500\",\n    \"discountPercent\": \"16\",\n    \"availableQuantity\": \"5\",\n    \"discountedSellingPrice\": \"2100\",\n    \"weightInGms\": \"1000\",\n    \"outOfStock\": \"FALSE\",\n    \"quantity\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/v1/api/item/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"api",
+						"item",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
