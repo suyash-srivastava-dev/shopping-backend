@@ -1,12 +1,15 @@
 package com.suyash.shopping.service;
 
-import com.suyash.shopping.dto.RegisterRequest;
+import com.suyash.shopping.dto.*;
 import com.suyash.shopping.model.Customer;
 import com.suyash.shopping.model.Role;
 import com.suyash.shopping.repository.CustomerRepository;
+import com.suyash.shopping.repository.InventoryRepository;
+import com.suyash.shopping.repository.OutletRepository;
 import com.suyash.shopping.repository.RoleRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -16,9 +19,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.UUID;
+import java.util.*;
 
 @Service
 @RequiredArgsConstructor
@@ -27,8 +28,8 @@ import java.util.UUID;
 public class CustomerServiceImpl implements UserDetailsService,CustomerService {
     private final CustomerRepository customerRepository;
 
-//    PasswordEncoder passwordEncoder=new BCryptPasswordEncoder();
-
+    @Autowired
+    private OutletRepository outletRepository;
     private final RoleRepository roleRepository;
 
     @Override
@@ -81,11 +82,47 @@ public class CustomerServiceImpl implements UserDetailsService,CustomerService {
     }
 
     @Override
-    public void addRoleToEmployee(Customer customer, String roleName) {
-        log.info("Adding new user: {} to role:{}",customer.getUsername(),roleName);
-//        Customer customer= customerRepository.findByUsername(customerName);
-        Role role=roleRepository.findByName(roleName);
-        customer.getRole().add(role);
+    public List<NearestShopResponse> nearestDistance(NearestShopRequest nearestShopRequest) {
+        GeoLocation geoLocation=new GeoLocation(nearestShopRequest.getCurrentLocation().getLatitude(), nearestShopRequest.getCurrentLocation().getLongitude());
+        List<NearestShopResponse> listNearestShopResponses=new ArrayList<>();
+        outletRepository.findAll().forEach(outlet -> {
+            NearestShopResponse nearestShopResponse=new NearestShopResponse();
+            GeoLocation geoLocationOfStore=new GeoLocation(outlet.getLatitude(),outlet.getLongitude());
+            nearestShopResponse.setLatitude(outlet.getLatitude());
+            nearestShopResponse.setLongitude(outlet.getLongitude());
+            nearestShopResponse.setDistance(getDistance(geoLocation,geoLocationOfStore));
+            nearestShopResponse.setStoreName(outlet.getStoreName());
+            listNearestShopResponses.add(nearestShopResponse);
+        });
+        Collections.sort(listNearestShopResponses, Comparator.comparing(NearestShopResponse::getDistance));
+        return listNearestShopResponses;
     }
+
+
+    Double rad (double x) {
+        double doubleVal;
+        doubleVal = x* 0.0174;
+        return doubleVal;
+    };
+
+    double getDistance(GeoLocation p1, GeoLocation p2) {
+        double R = 6378137; // Earth’s mean radius in meter
+        double dLat = rad(p2.getLatitude().doubleValue() - p1.getLatitude().doubleValue());
+        double dLong = rad(p2.getLongitude().doubleValue() - p1.getLongitude().doubleValue());
+        double a = Math.sin(dLat / 2) * Math.sin(dLat / 2) +
+                Math.cos(rad(p1.getLatitude().doubleValue())) * Math.cos(rad(p2.getLatitude().doubleValue())) *
+                        Math.sin(dLong / 2) * Math.sin(dLong / 2);
+        double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+        double d = R * c;
+        return d; // returns the distance in meter
+    };
+
+//    @Override
+//    public void addRoleToEmployee(Customer customer, String roleName) {
+//        log.info("Adding new user: {} to role:{}",customer.getUsername(),roleName);
+////        Customer customer= customerRepository.findByUsername(customerName);
+//        Role role=roleRepository.findByName(roleName);
+//        customer.getRole().add(role);
+//    }
 
 }

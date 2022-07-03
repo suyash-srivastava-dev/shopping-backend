@@ -1,634 +1,634 @@
 {
-  "Bangalore Outlet Details": [
+  "bangloreOutletDetails": [
     {
-      "Store_Name": "Kanti Sweets",
-      "Area": "Adugodi",
-      "Pincode": "560 030",
-      "Latitude": "12.9716",
-      "Longitude": "77.5946"
+      "storeName": "Kanti Sweets",
+      "area": "Adugodi",
+      "pincode": "560 030",
+      "latitude": "12.9716",
+      "longitude": "77.5946"
     },
     {
-      "Store_Name": "Mumbai Tiffin",
-      "Area": "Agaram",
-      "Pincode": "560 007",
-      "Latitude": "12.8431",
-      "Longitude": "77.4863"
+      "storeName": "Mumbai Tiffin",
+      "area": "Agaram",
+      "pincode": "560 007",
+      "latitude": "12.8431",
+      "longitude": "77.4863"
     },
     {
-      "Store_Name": "Sri Krishna sagar",
-      "Area": "Air Force Stn. Yelahanka",
-      "Pincode": "560 063",
-      "Latitude": "13.1048",
-      "Longitude": "77.5763"
+      "storeName": "Sri Krishna sagar",
+      "area": "Air Force Stn. Yelahanka",
+      "pincode": "560 063",
+      "latitude": "13.1048",
+      "longitude": "77.5763"
     },
     {
-      "Store_Name": "Al Daaz",
-      "Area": "Banashankari",
-      "Pincode": "560 050",
-      "Latitude": "12.925453",
-      "Longitude": "77.546761"
+      "storeName": "Al Daaz",
+      "area": "Banashankari",
+      "pincode": "560 050",
+      "latitude": "12.925453",
+      "longitude": "77.546761"
     },
     {
-      "Store_Name": "Beijing Bites",
-      "Area": "Banashankari 2nd Stage",
-      "Pincode": "560 070",
-      "Latitude": "12.9249",
-      "Longitude": "77.5662"
+      "storeName": "Beijing Bites",
+      "area": "Banashankari 2nd Stage",
+      "pincode": "560 070",
+      "latitude": "12.9249",
+      "longitude": "77.5662"
     },
     {
-      "Store_Name": "Kitchens of Punjab",
-      "Area": "Banashankari 3rd Stage",
-      "Pincode": "560 085",
-      "Latitude": "12.9271",
-      "Longitude": "77.5548"
+      "storeName": "Kitchens of Punjab",
+      "area": "Banashankari 3rd Stage",
+      "pincode": "560 085",
+      "latitude": "12.9271",
+      "longitude": "77.5548"
     },
     {
-      "Store_Name": "99 VARIETY DOSA AND PAV BHAJI- Malli Mane Food Court",
-      "Area": "Bangalore City H.O.",
-      "Pincode": "560 002",
-      "Latitude": "12.972442",
-      "Longitude": "77.580643"
+      "storeName": "99 VARIETY DOSA AND PAV BHAJI- Malli Mane Food Court",
+      "area": "Bangalore City H.O.",
+      "pincode": "560 002",
+      "latitude": "12.972442",
+      "longitude": "77.580643"
     },
     {
-      "Store_Name": "La Pino'z Pizza",
-      "Area": "Bangalore G.P.O.",
-      "Pincode": "560 001",
-      "Latitude": "12.972442",
-      "Longitude": "77.580643"
+      "storeName": "La Pino'z Pizza",
+      "area": "Bangalore G.P.O.",
+      "pincode": "560 001",
+      "latitude": "12.972442",
+      "longitude": "77.580643"
     },
     {
-      "Store_Name": "Hotel Manu",
-      "Area": "Bangalore University",
-      "Pincode": "560 056",
-      "Latitude": "12.9462",
-      "Longitude": "77.5103"
+      "storeName": "Hotel Manu",
+      "area": "Bangalore University",
+      "pincode": "560 056",
+      "latitude": "12.9462",
+      "longitude": "77.5103"
     },
     {
-      "Store_Name": "Yumlane Pizza",
-      "Area": "Bannerghatta",
-      "Pincode": "560 083",
-      "Latitude": "12.9426",
-      "Longitude": "77.6027"
+      "storeName": "Yumlane Pizza",
+      "area": "Bannerghatta",
+      "pincode": "560 083",
+      "latitude": "12.9426",
+      "longitude": "77.6027"
     },
     {
-      "Store_Name": "Ambur Star Briyani",
-      "Area": "Bannerghatta Road",
-      "Pincode": "560 076",
-      "Latitude": "12.9426",
-      "Longitude": "77.6027"
+      "storeName": "Ambur Star Briyani",
+      "area": "Bannerghatta Road",
+      "pincode": "560 076",
+      "latitude": "12.9426",
+      "longitude": "77.6027"
     },
     {
-      "Store_Name": "Cake Box",
-      "Area": "Bansawadi",
-      "Pincode": "560 043",
-      "Latitude": "13.0108",
-      "Longitude": "77.6493"
+      "storeName": "Cake Box",
+      "area": "Bansawadi",
+      "pincode": "560 043",
+      "latitude": "13.0108",
+      "longitude": "77.6493"
     },
     {
-      "Store_Name": "Meghana Foods",
-      "Area": "Basavangudi",
-      "Pincode": "560 004",
-      "Latitude": "12.9422",
-      "Longitude": "77.5748"
+      "storeName": "Meghana Foods",
+      "area": "Basavangudi",
+      "pincode": "560 004",
+      "latitude": "12.9422",
+      "longitude": "77.5748"
     },
     {
-      "Store_Name": "Momoz",
-      "Area": "Basaveswaranagar",
-      "Pincode": "560 079",
-      "Latitude": "12.9957",
-      "Longitude": "77.5419"
+      "storeName": "Momoz",
+      "area": "Basaveswaranagar",
+      "pincode": "560 079",
+      "latitude": "12.9957",
+      "longitude": "77.5419"
     },
     {
-      "Store_Name": "A2B - Adyar Ananda Bhavan",
-      "Area": "Benson Town",
-      "Pincode": "560 046",
-      "Latitude": "12.9966",
-      "Longitude": "77.6042"
+      "storeName": "A2B - Adyar Ananda Bhavan",
+      "area": "Benson Town",
+      "pincode": "560 046",
+      "latitude": "12.9966",
+      "longitude": "77.6042"
     },
     {
-      "Store_Name": "Shawarma Inc",
-      "Area": "Byatarayanapura",
-      "Pincode": "560 092",
-      "Latitude": "13.0588",
-      "Longitude": "77.59385"
+      "storeName": "Shawarma Inc",
+      "area": "Byatarayanapura",
+      "pincode": "560 092",
+      "latitude": "13.0588",
+      "longitude": "77.59385"
     },
     {
-      "Store_Name": "WarmOven Cake & Desserts",
-      "Area": "Carmelram",
-      "Pincode": "560 035",
-      "Latitude": "12.9062",
-      "Longitude": "77.7066"
+      "storeName": "WarmOven Cake & Desserts",
+      "area": "Carmelram",
+      "pincode": "560 035",
+      "latitude": "12.9062",
+      "longitude": "77.7066"
     },
     {
-      "Store_Name": "Sri Lakshmi Dhaba",
-      "Area": "Chamrajpet West",
-      "Pincode": "560 018",
-      "Latitude": "12.9586",
-      "Longitude": "77.5634"
+      "storeName": "Sri Lakshmi Dhaba",
+      "area": "Chamrajpet West",
+      "pincode": "560 018",
+      "latitude": "12.9586",
+      "longitude": "77.5634"
     },
     {
-      "Store_Name": "Falahaar & Kota Kachori",
-      "Area": "Chickpet",
-      "Pincode": "560 053",
-      "Latitude": "12.9708",
-      "Longitude": "77.5806"
+      "storeName": "Falahaar & Kota Kachori",
+      "area": "Chickpet",
+      "pincode": "560 053",
+      "latitude": "12.9708",
+      "longitude": "77.5806"
     },
     {
-      "Store_Name": "Shree Khana Khazana",
-      "Area": "Chikkabanavara",
-      "Pincode": "560 090",
-      "Latitude": "13.0823",
-      "Longitude": "77.5068"
+      "storeName": "Shree Khana Khazana",
+      "area": "Chikkabanavara",
+      "pincode": "560 090",
+      "latitude": "13.0823",
+      "longitude": "77.5068"
     },
     {
-      "Store_Name": "Just Bake - Cakes & confectioners",
-      "Area": "C V Raman Nagar",
-      "Pincode": "560 093",
-      "Latitude": "12.9846",
-      "Longitude": "77.6622"
+      "storeName": "Just Bake - Cakes & confectioners",
+      "area": "C V Raman Nagar",
+      "pincode": "560 093",
+      "latitude": "12.9846",
+      "longitude": "77.6622"
     },
     {
-      "Store_Name": "Maa Di Hatti",
-      "Area": "Dasarahalli",
-      "Pincode": "560 057",
-      "Latitude": "13.0458",
-      "Longitude": "77.5111"
+      "storeName": "Maa Di Hatti",
+      "area": "Dasarahalli",
+      "pincode": "560 057",
+      "latitude": "13.0458",
+      "longitude": "77.5111"
     },
     {
-      "Store_Name": "Hotel Godavari",
-      "Area": "Dharmaram College",
-      "Pincode": "560 029",
-      "Latitude": "12.9376",
-      "Longitude": "77.5991"
+      "storeName": "Hotel Godavari",
+      "area": "Dharmaram College",
+      "pincode": "560 029",
+      "latitude": "12.9376",
+      "longitude": "77.5991"
     },
     {
-      "Store_Name": "Rolls On Wheels",
-      "Area": "Doddakallasandra",
-      "Pincode": "560 062",
-      "Latitude": "12.8807",
-      "Longitude": "77.5576"
+      "storeName": "Rolls On Wheels",
+      "area": "Doddakallasandra",
+      "pincode": "560 062",
+      "latitude": "12.8807",
+      "longitude": "77.5576"
     },
     {
-      "Store_Name": "New Udupi Grand",
-      "Area": "Domlur",
-      "Pincode": "560 071",
-      "Latitude": "12.961",
-      "Longitude": "77.6387"
+      "storeName": "New Udupi Grand",
+      "area": "Domlur",
+      "pincode": "560 071",
+      "latitude": "12.961",
+      "longitude": "77.6387"
     },
     {
-      "Store_Name": "Swad Punjab da",
-      "Area": "Dooravaninagar",
-      "Pincode": "560 016",
-      "Latitude": "13.0077",
-      "Longitude": "77.6737"
+      "storeName": "Swad Punjab da",
+      "area": "Dooravaninagar",
+      "pincode": "560 016",
+      "latitude": "13.0077",
+      "longitude": "77.6737"
     },
     {
-      "Store_Name": "Rice Bowl",
-      "Area": "Fraser Town",
-      "Pincode": "560 005",
-      "Latitude": "13.0007",
-      "Longitude": "77.6165"
+      "storeName": "Rice Bowl",
+      "area": "Fraser Town",
+      "pincode": "560 005",
+      "latitude": "13.0007",
+      "longitude": "77.6165"
     },
     {
-      "Store_Name": "High N Hungry",
-      "Area": "Gandhinagar",
-      "Pincode": "560 009",
-      "Latitude": "12.9791",
-      "Longitude": "77.5777"
+      "storeName": "High N Hungry",
+      "area": "Gandhinagar",
+      "pincode": "560 009",
+      "latitude": "12.9791",
+      "longitude": "77.5777"
     },
     {
-      "Store_Name": "Burger King",
-      "Area": "Gavipuram Ext.",
-      "Pincode": "560 019",
-      "Latitude": "12.9463",
-      "Longitude": "77.5669"
+      "storeName": "Burger King",
+      "area": "Gavipuram Ext.",
+      "pincode": "560 019",
+      "latitude": "12.9463",
+      "longitude": "77.5669"
     },
     {
-      "Store_Name": "Nandhana Palace",
-      "Area": "G.K.V.K.",
-      "Pincode": "560 065",
-      "Latitude": "13.0821",
-      "Longitude": "77.5762"
+      "storeName": "Nandhana Palace",
+      "area": "G.K.V.K.",
+      "pincode": "560 065",
+      "latitude": "13.0821",
+      "longitude": "77.5762"
     },
     {
-      "Store_Name": "Easy Bites",
-      "Area": "Gokula Extension",
-      "Pincode": "560 054",
-      "Latitude": "12.9716",
-      "Longitude": "77.5946"
+      "storeName": "Easy Bites",
+      "area": "Gokula Extension",
+      "pincode": "560 054",
+      "latitude": "12.9716",
+      "longitude": "77.5946"
     },
     {
-      "Store_Name": "Bengali Fun Foods",
-      "Area": "Hebbal Agri. Farm",
-      "Pincode": "560 024",
-      "Latitude": "13.0324",
-      "Longitude": "77.5992"
+      "storeName": "Bengali Fun Foods",
+      "area": "Hebbal Agri. Farm",
+      "pincode": "560 024",
+      "latitude": "13.0324",
+      "longitude": "77.5992"
     },
     {
-      "Store_Name": "Madurai Idly Shop",
-      "Area": "Hesaraghatta",
-      "Pincode": "560 088",
-      "Latitude": "13.1585",
-      "Longitude": "77.4888"
+      "storeName": "Madurai Idly Shop",
+      "area": "Hesaraghatta",
+      "pincode": "560 088",
+      "latitude": "13.1585",
+      "longitude": "77.4888"
     },
     {
-      "Store_Name": "Oottupura",
-      "Area": "Hesaraghatta Lake",
-      "Pincode": "560 089",
-      "Latitude": "13.1585",
-      "Longitude": "77.4888"
+      "storeName": "Oottupura",
+      "area": "Hesaraghatta Lake",
+      "pincode": "560 089",
+      "latitude": "13.1585",
+      "longitude": "77.4888"
     },
     {
-      "Store_Name": "Taco Bell",
-      "Area": "H K P Road",
-      "Pincode": "560 051",
-      "Latitude": "12.98551",
-      "Longitude": "77.60678"
+      "storeName": "Taco Bell",
+      "area": "H K P Road",
+      "pincode": "560 051",
+      "latitude": "12.98551",
+      "longitude": "77.60678"
     },
     {
-      "Store_Name": "Hyderabadi Biryani Hub",
-      "Area": "HMT",
-      "Pincode": "560 031",
-      "Latitude": "13.0311",
-      "Longitude": "77.5569"
+      "storeName": "Hyderabadi Biryani Hub",
+      "area": "HMT",
+      "pincode": "560 031",
+      "latitude": "13.0311",
+      "longitude": "77.5569"
     },
     {
-      "Store_Name": "Biriyani Zone",
-      "Area": "Hospital Town East",
-      "Pincode": "560 014",
-      "Latitude": "12.9956",
-      "Longitude": "77.6113"
+      "storeName": "Biriyani Zone",
+      "area": "Hospital Town East",
+      "pincode": "560 014",
+      "latitude": "12.9956",
+      "longitude": "77.6113"
     },
     {
-      "Store_Name": "Gongura's",
-      "Area": "Hospital Town West",
-      "Pincode": "560 015",
-      "Latitude": "12.9716",
-      "Longitude": "77.5946"
+      "storeName": "Gongura's",
+      "area": "Hospital Town West",
+      "pincode": "560 015",
+      "latitude": "12.9716",
+      "longitude": "77.5946"
     },
     {
-      "Store_Name": "Bathinda Junction",
-      "Area": "Indiranagar",
-      "Pincode": "560 038",
-      "Latitude": "12.9719",
-      "Longitude": "77.6412"
+      "storeName": "Bathinda Junction",
+      "area": "Indiranagar",
+      "pincode": "560 038",
+      "latitude": "12.9719",
+      "longitude": "77.6412"
     },
     {
-      "Store_Name": "Leon Grill",
-      "Area": "J C Nagar",
-      "Pincode": "560 006",
-      "Latitude": "12.9876",
-      "Longitude": "77.6379"
+      "storeName": "Leon Grill",
+      "area": "J C Nagar",
+      "pincode": "560 006",
+      "latitude": "12.9876",
+      "longitude": "77.6379"
     },
     {
-      "Store_Name": "Venu's Donne Biryani",
-      "Area": "Jalahalli",
-      "Pincode": "560 013",
-      "Latitude": "13.0519",
-      "Longitude": "77.5416"
+      "storeName": "Venu's Donne Biryani",
+      "area": "Jalahalli",
+      "pincode": "560 013",
+      "latitude": "13.0519",
+      "longitude": "77.5416"
     },
     {
-      "Store_Name": "Cakewala",
-      "Area": "Jayanagar 3rd Block",
-      "Pincode": "560 011",
-      "Latitude": "12.9329",
-      "Longitude": "77.5839"
+      "storeName": "Cakewala",
+      "area": "Jayanagar 3rd Block",
+      "pincode": "560 011",
+      "latitude": "12.9329",
+      "longitude": "77.5839"
     },
     {
-      "Store_Name": "Swadista Aahar",
-      "Area": "Jayanagar East",
-      "Pincode": "560 069",
-      "Latitude": "12.9301",
-      "Longitude": "77.5877"
+      "storeName": "Swadista Aahar",
+      "area": "Jayanagar East",
+      "pincode": "560 069",
+      "latitude": "12.9301",
+      "longitude": "77.5877"
     },
     {
-      "Store_Name": "Cream Stone",
-      "Area": "Jayanagar South",
-      "Pincode": "560 041",
-      "Latitude": "12.9301",
-      "Longitude": "77.5877"
+      "storeName": "Cream Stone",
+      "area": "Jayanagar South",
+      "pincode": "560 041",
+      "latitude": "12.9301",
+      "longitude": "77.5877"
     },
     {
-      "Store_Name": "Svadu Pure Ghee Sweets",
-      "Area": "J P Nagar",
-      "Pincode": "560 078",
-      "Latitude": "12.9105",
-      "Longitude": "77.5857"
+      "storeName": "Svadu Pure Ghee Sweets",
+      "area": "J P Nagar",
+      "pincode": "560 078",
+      "latitude": "12.9105",
+      "longitude": "77.5857"
     },
     {
-      "Store_Name": "Sai Abhiruchi",
-      "Area": "Kadugodi",
-      "Pincode": "560 067",
-      "Latitude": "12.9986",
-      "Longitude": "77.7631"
+      "storeName": "Sai Abhiruchi",
+      "area": "Kadugodi",
+      "pincode": "560 067",
+      "latitude": "12.9986",
+      "longitude": "77.7631"
     },
     {
-      "Store_Name": "Pizza Hut",
-      "Area": "Kengeri",
-      "Pincode": "560 060",
-      "Latitude": "12.9",
-      "Longitude": "77.4833"
+      "storeName": "Pizza Hut",
+      "area": "Kengeri",
+      "pincode": "560 060",
+      "latitude": "12.9",
+      "longitude": "77.4833"
     },
     {
-      "Store_Name": "Hyderabad Biryaani House",
-      "Area": "Kothanur",
-      "Pincode": "560 077",
-      "Latitude": "13.0585",
-      "Longitude": "77.6407"
+      "storeName": "Hyderabad Biryaani House",
+      "area": "Kothanur",
+      "pincode": "560 077",
+      "latitude": "13.0585",
+      "longitude": "77.6407"
     },
     {
-      "Store_Name": "China Pearl",
-      "Area": "Krishnarajapuram",
-      "Pincode": "560 036",
-      "Latitude": "13.0006",
-      "Longitude": "77.6746"
+      "storeName": "China Pearl",
+      "area": "Krishnarajapuram",
+      "pincode": "560 036",
+      "latitude": "13.0006",
+      "longitude": "77.6746"
     },
     {
-      "Store_Name": "Balaji's Veg",
-      "Area": "Kumbalgodu",
-      "Pincode": "560 074",
-      "Latitude": "12.9716",
-      "Longitude": "77.5946"
+      "storeName": "Balaji's Veg",
+      "area": "Kumbalgodu",
+      "pincode": "560 074",
+      "latitude": "12.9716",
+      "longitude": "77.5946"
     },
     {
-      "Store_Name": "Onesta",
-      "Area": "Koramangala",
-      "Pincode": "560 034",
-      "Latitude": "12.9317",
-      "Longitude": "77.6227"
+      "storeName": "Onesta",
+      "area": "Koramangala",
+      "pincode": "560 034",
+      "latitude": "12.9317",
+      "longitude": "77.6227"
     },
     {
-      "Store_Name": "Donne Biryani Mandi",
-      "Area": "Koramangala 6th Block",
-      "Pincode": "560 095",
-      "Latitude": "12.9382",
-      "Longitude": "77.6228"
+      "storeName": "Donne Biryani Mandi",
+      "area": "Koramangala 6th Block",
+      "pincode": "560 095",
+      "latitude": "12.9382",
+      "longitude": "77.6228"
     },
     {
-      "Store_Name": "FreshMenu",
-      "Area": "Madivala",
-      "Pincode": "560 068",
-      "Latitude": "12.9211",
-      "Longitude": "77.6134"
+      "storeName": "FreshMenu",
+      "area": "Madivala",
+      "pincode": "560 068",
+      "latitude": "12.9211",
+      "longitude": "77.6134"
     },
     {
-      "Store_Name": "Donne Biryani House",
-      "Area": "Magadi Road",
-      "Pincode": "560 023",
-      "Latitude": "12.9709",
-      "Longitude": "77.5658"
+      "storeName": "Donne Biryani House",
+      "area": "Magadi Road",
+      "pincode": "560 023",
+      "latitude": "12.9709",
+      "longitude": "77.5658"
     },
     {
-      "Store_Name": "Pipabu",
-      "Area": "Mahadevapura",
-      "Pincode": "560 048",
-      "Latitude": "12.9904",
-      "Longitude": "77.6842"
+      "storeName": "Pipabu",
+      "area": "Mahadevapura",
+      "pincode": "560 048",
+      "latitude": "12.9904",
+      "longitude": "77.6842"
     },
     {
-      "Store_Name": "Sharmas punjabi restaurant",
-      "Area": "Mahalakshmi Layout",
-      "Pincode": "560 086",
-      "Latitude": "13.0114",
-      "Longitude": "77.5467"
+      "storeName": "Sharmas punjabi restaurant",
+      "area": "Mahalakshmi Layout",
+      "pincode": "560 086",
+      "latitude": "13.0114",
+      "longitude": "77.5467"
     },
     {
-      "Store_Name": "KFC",
-      "Area": "Malleswaram",
-      "Pincode": "560 003",
-      "Latitude": "13.0081",
-      "Longitude": "77.5648"
+      "storeName": "KFC",
+      "area": "Malleswaram",
+      "pincode": "560 003",
+      "latitude": "13.0081",
+      "longitude": "77.5648"
     },
     {
-      "Store_Name": "Donne Biriyani House",
-      "Area": "Malleswaram West",
-      "Pincode": "560 055",
-      "Latitude": "12.9996",
-      "Longitude": "77.5689"
+      "storeName": "Donne Biriyani House",
+      "area": "Malleswaram West",
+      "pincode": "560 055",
+      "latitude": "12.9996",
+      "longitude": "77.5689"
     },
     {
-      "Store_Name": "Nanda's",
-      "Area": "Marathahally Colony",
-      "Pincode": "560 037",
-      "Latitude": "12.9512",
-      "Longitude": "77.6998"
+      "storeName": "Nanda's",
+      "area": "Marathahally Colony",
+      "pincode": "560 037",
+      "latitude": "12.9512",
+      "longitude": "77.6998"
     },
     {
-      "Store_Name": "Sagar fast food",
-      "Area": "Maruthisevanagar",
-      "Pincode": "560 033",
-      "Latitude": "13.0002",
-      "Longitude": "77.6336"
+      "storeName": "Sagar fast food",
+      "area": "Maruthisevanagar",
+      "pincode": "560 033",
+      "latitude": "13.0002",
+      "longitude": "77.6336"
     },
     {
-      "Store_Name": "calicut cafe restaurant",
-      "Area": "Mathikere",
-      "Pincode": "560 054",
-      "Latitude": "13.032",
-      "Longitude": "77.5605"
+      "storeName": "calicut cafe restaurant",
+      "area": "Mathikere",
+      "pincode": "560 054",
+      "latitude": "13.032",
+      "longitude": "77.5605"
     },
     {
-      "Store_Name": "Cake Garden",
-      "Area": "Nagarbhavi",
-      "Pincode": "560 072",
-      "Latitude": "12.9717",
-      "Longitude": "77.5132"
+      "storeName": "Cake Garden",
+      "area": "Nagarbhavi",
+      "pincode": "560 072",
+      "latitude": "12.9717",
+      "longitude": "77.5132"
     },
     {
-      "Store_Name": "Biryanis and more",
-      "Area": "Nagasandra",
-      "Pincode": "560 073",
-      "Latitude": "13.02889",
-      "Longitude": "77.44233"
+      "storeName": "Biryanis and more",
+      "area": "Nagasandra",
+      "pincode": "560 073",
+      "latitude": "13.02889",
+      "longitude": "77.44233"
     },
     {
-      "Store_Name": "Biryani Khazana",
-      "Area": "Nagashettyhalli",
-      "Pincode": "560 094",
-      "Latitude": "12.9642",
-      "Longitude": "77.6207"
+      "storeName": "Biryani Khazana",
+      "area": "Nagashettyhalli",
+      "pincode": "560 094",
+      "latitude": "12.9642",
+      "longitude": "77.6207"
     },
     {
-      "Store_Name": "800 Momos",
-      "Area": "Nandhini Layout",
-      "Pincode": "560 096",
-      "Latitude": "13.0124",
-      "Longitude": "77.5361"
+      "storeName": "800 Momos",
+      "area": "Nandhini Layout",
+      "pincode": "560 096",
+      "latitude": "13.0124",
+      "longitude": "77.5361"
     },
     {
-      "Store_Name": "World of asia",
-      "Area": "Nayandahalli",
-      "Pincode": "560 039",
-      "Latitude": "12.9396",
-      "Longitude": "77.5204"
+      "storeName": "World of asia",
+      "area": "Nayandahalli",
+      "pincode": "560 039",
+      "latitude": "12.9396",
+      "longitude": "77.5204"
     },
     {
-      "Store_Name": "Ghar Ka Khana",
-      "Area": "New Tippasandra",
-      "Pincode": "560 075",
-      "Latitude": "12.9769",
-      "Longitude": "77.6493"
+      "storeName": "Ghar Ka Khana",
+      "area": "New Tippasandra",
+      "pincode": "560 075",
+      "latitude": "12.9769",
+      "longitude": "77.6493"
     },
     {
-      "Store_Name": "Thalassery Restaurant",
-      "Area": "Peenya S.I.",
-      "Pincode": "560 058",
-      "Latitude": "13.0085",
-      "Longitude": "77.4996"
+      "storeName": "Thalassery Restaurant",
+      "area": "Peenya S.I.",
+      "pincode": "560 058",
+      "latitude": "13.0085",
+      "longitude": "77.4996"
     },
     {
-      "Store_Name": "KANNUR FOOD POINT",
-      "Area": "Rajajinagar",
-      "Pincode": "560 010",
-      "Latitude": "12.9906",
-      "Longitude": "77.5533"
+      "storeName": "KANNUR FOOD POINT",
+      "area": "Rajajinagar",
+      "pincode": "560 010",
+      "latitude": "12.9906",
+      "longitude": "77.5533"
     },
     {
-      "Store_Name": "KANNOOR RESTAURANT",
-      "Area": "Richmond Town",
-      "Pincode": "560 025",
-      "Latitude": "12.9634",
-      "Longitude": "77.6035"
+      "storeName": "KANNOOR RESTAURANT",
+      "area": "Richmond Town",
+      "pincode": "560 025",
+      "latitude": "12.9634",
+      "longitude": "77.6035"
     },
     {
-      "Store_Name": "Fattoush",
-      "Area": "RT Nagar",
-      "Pincode": "560 032",
-      "Latitude": "13.0223",
-      "Longitude": "77.5949"
+      "storeName": "Fattoush",
+      "area": "RT Nagar",
+      "pincode": "560 032",
+      "latitude": "13.0223",
+      "longitude": "77.5949"
     },
     {
-      "Store_Name": "Nizams Biryani",
-      "Area": "Seshadripuram",
-      "Pincode": "560 020",
-      "Latitude": "12.9864",
-      "Longitude": "77.582"
+      "storeName": "Nizams Biryani",
+      "area": "Seshadripuram",
+      "pincode": "560 020",
+      "latitude": "12.9864",
+      "longitude": "77.582"
     },
     {
-      "Store_Name": "Nagarjuna",
-      "Area": "Shanthinagar",
-      "Pincode": "560 027",
-      "Latitude": "12.9611",
-      "Longitude": "77.6047"
+      "storeName": "Nagarjuna",
+      "area": "Shanthinagar",
+      "pincode": "560 027",
+      "latitude": "12.9611",
+      "longitude": "77.6047"
     },
     {
-      "Store_Name": "Punjabi Rasoi",
-      "Area": "Srirampuram",
-      "Pincode": "560 021",
-      "Latitude": "12.987",
-      "Longitude": "77.5662"
+      "storeName": "Punjabi Rasoi",
+      "area": "Srirampuram",
+      "pincode": "560 021",
+      "latitude": "12.987",
+      "longitude": "77.5662"
     },
     {
-      "Store_Name": "CRAVY WINGS - The American Diner",
-      "Area": "St.Johns",
-      "Pincode": "560 034",
-      "Latitude": "12.991388",
-      "Longitude": "77.61186"
+      "storeName": "CRAVY WINGS - The American Diner",
+      "area": "St.Johns",
+      "pincode": "560 034",
+      "latitude": "12.991388",
+      "longitude": "77.61186"
     },
     {
-      "Store_Name": "Barista",
-      "Area": "St.Thomas Town",
-      "Pincode": "560 084",
-      "Latitude": "13.0059",
-      "Longitude": "77.6231"
+      "storeName": "Barista",
+      "area": "St.Thomas Town",
+      "pincode": "560 084",
+      "latitude": "13.0059",
+      "longitude": "77.6231"
     },
     {
-      "Store_Name": "BIRIYANI TASTE MASTH(BTM)",
-      "Area": "Subramanyapura",
-      "Pincode": "560 061",
-      "Latitude": "12.9052",
-      "Longitude": "77.5433"
+      "storeName": "BIRIYANI TASTE MASTH(BTM)",
+      "area": "Subramanyapura",
+      "pincode": "560 061",
+      "latitude": "12.9052",
+      "longitude": "77.5433"
     },
     {
-      "Store_Name": "Leon Grill",
-      "Area": "Thyagarajanagar",
-      "Pincode": "560 028",
-      "Latitude": "12.9293",
-      "Longitude": "77.568"
+      "storeName": "Leon Grill",
+      "area": "Thyagarajanagar",
+      "pincode": "560 028",
+      "latitude": "12.9293",
+      "longitude": "77.568"
     },
     {
-      "Store_Name": "Khichdi Experiment",
-      "Area": "Ulsoor H.O.",
-      "Pincode": "560 008",
-      "Latitude": "12.9815",
-      "Longitude": "77.6192"
+      "storeName": "Khichdi Experiment",
+      "area": "Ulsoor H.O.",
+      "pincode": "560 008",
+      "latitude": "12.9815",
+      "longitude": "77.6192"
     },
     {
-      "Store_Name": "Tandoori Merchant",
-      "Area": "Vasanthanagar",
-      "Pincode": "560 052",
-      "Latitude": "12.9911",
-      "Longitude": "77.592"
+      "storeName": "Tandoori Merchant",
+      "area": "Vasanthanagar",
+      "pincode": "560 052",
+      "latitude": "12.9911",
+      "longitude": "77.592"
     },
     {
-      "Store_Name": "Chinese Bae",
-      "Area": "Vidyaranyapura",
-      "Pincode": "560 097",
-      "Latitude": "13.0754",
-      "Longitude": "77.5591"
+      "storeName": "Chinese Bae",
+      "area": "Vidyaranyapura",
+      "pincode": "560 097",
+      "latitude": "13.0754",
+      "longitude": "77.5591"
     },
     {
-      "Store_Name": "Kitchens of China",
-      "Area": "Vijayanagar",
-      "Pincode": "560 040",
-      "Latitude": "12.9699",
-      "Longitude": "77.5333"
+      "storeName": "Kitchens of China",
+      "area": "Vijayanagar",
+      "pincode": "560 040",
+      "latitude": "12.9699",
+      "longitude": "77.5333"
     },
     {
-      "Store_Name": "Natural Ice Cream",
-      "Area": "Vimanapura",
-      "Pincode": "560 017",
-      "Latitude": "12.9645",
-      "Longitude": "77.6865"
+      "storeName": "Natural Ice Cream",
+      "area": "Vimanapura",
+      "pincode": "560 017",
+      "latitude": "12.9645",
+      "longitude": "77.6865"
     },
     {
-      "Store_Name": "Abhiruchi Hotel",
-      "Area": "Virgonagar",
-      "Pincode": "560 049",
-      "Latitude": "13.0319",
-      "Longitude": "77.7322"
+      "storeName": "Abhiruchi Hotel",
+      "area": "Virgonagar",
+      "pincode": "560 049",
+      "latitude": "13.0319",
+      "longitude": "77.7322"
     },
     {
-      "Store_Name": "Punjabi Swag",
-      "Area": "Vyalikaval",
-      "Pincode": "560 003",
-      "Latitude": "13.0041",
-      "Longitude": "77.5749"
+      "storeName": "Punjabi Swag",
+      "area": "Vyalikaval",
+      "pincode": "560 003",
+      "latitude": "13.0041",
+      "longitude": "77.5749"
     },
     {
-      "Store_Name": "Truffles",
-      "Area": "Viveknagar",
-      "Pincode": "560 047",
-      "Latitude": "12.9496",
-      "Longitude": "77.6223"
+      "storeName": "Truffles",
+      "area": "Viveknagar",
+      "pincode": "560 047",
+      "latitude": "12.9496",
+      "longitude": "77.6223"
     },
     {
-      "Store_Name": "Gyaani Da Punjabi Dhaba",
-      "Area": "Whitefield",
-      "Pincode": "560 066",
-      "Latitude": "12.9698",
-      "Longitude": "77.7499"
+      "storeName": "Gyaani Da Punjabi Dhaba",
+      "area": "Whitefield",
+      "pincode": "560 066",
+      "latitude": "12.9698",
+      "longitude": "77.7499"
     },
     {
-      "Store_Name": "Biriyani Bhatti",
-      "Area": "Wilson Garden",
-      "Pincode": "560 027",
-      "Latitude": "12.949",
-      "Longitude": "77.5978"
+      "storeName": "Biriyani Bhatti",
+      "area": "Wilson Garden",
+      "pincode": "560 027",
+      "latitude": "12.949",
+      "longitude": "77.5978"
     },
     {
-      "Store_Name": "Khawa Karpo",
-      "Area": "Yelhanka",
-      "Pincode": "560 064",
-      "Latitude": "13.1048",
-      "Longitude": "77.5763"
+      "storeName": "Khawa Karpo",
+      "area": "Yelhanka",
+      "pincode": "560 064",
+      "latitude": "13.1048",
+      "longitude": "77.5763"
     },
     {
-      "Store_Name": "99 VARIETY DOSA AND JUICE-Malli mane food court",
-      "Area": "Yeswantpur",
-      "Pincode": "560 022",
-      "Latitude": "13.0178",
-      "Longitude": "77.5572"
+      "storeName": "99 VARIETY DOSA AND JUICE-Malli mane food court",
+      "area": "Yeswantpur",
+      "pincode": "560 022",
+      "latitude": "13.0178",
+      "longitude": "77.5572"
     }
   ]
 }

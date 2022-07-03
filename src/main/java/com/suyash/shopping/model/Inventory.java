@@ -1,23 +1,30 @@
 package com.suyash.shopping.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.*;
 import java.time.LocalDateTime;
 
+import static javax.persistence.GenerationType.IDENTITY;
+
 @Entity
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Inventory {
     @Id
-    Long id;
+    @GeneratedValue(strategy = IDENTITY)
+    private Long id;
 
     @ManyToOne
-    @JoinColumn(name = "outlet_id")
-    Outlet outlet;
+    @JoinColumn(name = "outlet")
+    private Outlet outlet;
 
     @ManyToOne
-    @JoinColumn(name = "item_id")
-    Item item;
+    @JoinColumn(name = "item")
+    private Item item;
 
 
     int remainingItem;
