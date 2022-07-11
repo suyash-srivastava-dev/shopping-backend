@@ -12,7 +12,7 @@ Demo: https://www.youtube.com/watch?v=JFt0r2nuMpY
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/68404906/177041261-16e16d6c-7e6e-493c-a51e-7f2d289120dd.gif)
 
 
-Frontend App: https://github.com/suyash-srivastava-dev/https---github.com-suyash-srivastava-dev-shopping-angular
+Frontend App: https://github.com/suyash-srivastava-dev/shopping-angular
 
 ![image](https://user-images.githubusercontent.com/68404906/177040814-ef3fe731-34d8-4521-b935-ee1986b1f6b2.png)
 Customer can select nearest store location (From list of Stores)
